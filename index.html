@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>SNAKE</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/ico">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=DotGothic16&display=swap"
+        rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="titlegame">SNAKE 1.0 JAVASCRIPT</header>
+    <br>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+    <!-- Opcional: Botón de reinicio -->
+    <br>
+    <br>
+    <div>
+        <button class="startPause-button" onclick="togglePause()"> STAR / PAUSE</button>
+        <button class="reset-button" onclick="resetGame()"> REICINICAR </button>
+    </div>
+    
+    <div class="instrucciones">
+        <div>
+            <p>
+                <b>Instruciones: </b>Para iniciar use el botón STAR, utilice las teclas de navegacion para mover la
+                serpiente, solo tiene 3 vidas y en puntaje le va a mostrar como va.
+                <u>La serpiente es verde y la comida de color rojo</u>
+            </p>
+        </div>
+        <div>
+            <img src="img/keys.gif" class="keys">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
